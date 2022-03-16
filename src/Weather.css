@@ -1,0 +1,23 @@
+.Weather ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.Weather .CityElement {
+    list-style: none;
+    border: 1px solid black;
+    width: 350px;
+    height: 120px;
+    padding: 10px;
+}
+
+.Weather .CityElement span {
+    display: block;
+    padding: 2px;
+}
+
+.Weather .CityElement .NameCity {
+    font-weight: bold;
+    font-size: x-large;
+}
